@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Table Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        caption {
+            caption-side: top;
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h2>Item List with Visuals and Descriptions</h2>
+
+    <table>
+        <caption>Table showing different media types</caption>
+        <tr>
+            <th>ITEM</th>
+            <th>VISUAL</th>
+            <th>DESCRIPTION</th>
+        </tr>
+        <tr>
+            <td>Image</td>
+            <td>Image will go here</td>
+            <td>Add a brief description</td>
+        </tr>
+        <tr>
+            <td>Audio</td>
+            <td>Audio will go here</td>
+            <td>Add a brief description</td>
+        </tr>
+        <tr>
+            <td>Video</td>
+            <td>Video will go here</td>
+            <td>Add a brief description</td>
+        </tr>
+        <tr>
+            <td>Document</td>
+            <td>Document icon will go here</td>
+            <td>Add a brief description</td>
+        </tr>
+    </table>
+</body>
+</html>
